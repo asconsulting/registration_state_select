@@ -1,0 +1,30 @@
+{
+    "name":"asconsulting/registration_state_select",
+    "description":"States and Canadian Provinces as a Select menu for member registration extension for Contao CMS",
+    "homepage": "https://andrewstevens.consulting",
+    "keywords":["contao", "member", "user", "state", "province", "registration", "register", "select", "drop-down"],
+    "type":"contao-module",
+    "license":"LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"Andrew Stevens",
+            "homepage":"https://andrewstevens.consulting"
+        }
+    ],
+    "require":{
+        "php": "~5.4 || ~7.0",
+        "contao/core-bundle": "^3.5.2 || ~4.4",
+        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/registration_state_select": "system/modules/registration_state_select"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
