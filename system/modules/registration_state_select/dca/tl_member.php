@@ -15,6 +15,7 @@
  * Table tl_module
  */
 $GLOBALS['TL_DCA']['tl_module']['fields']['state']['inputType'] = 'select';
+$GLOBALS['TL_DCA']['tl_module']['fields']['state']['eval']['includeBlankOption'] = true;
 $GLOBALS['TL_DCA']['tl_module']['fields']['state']['options'] = array(
 	"AL" => "Alabama",
 	"AK" => "Alaska",
