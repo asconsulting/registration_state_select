@@ -12,11 +12,11 @@
 
 
 /**
- * Table tl_module
+ * Table tl_member
  */
-$GLOBALS['TL_DCA']['tl_module']['fields']['state']['inputType'] = 'select';
-$GLOBALS['TL_DCA']['tl_module']['fields']['state']['eval']['includeBlankOption'] = true;
-$GLOBALS['TL_DCA']['tl_module']['fields']['state']['options'] = array(
+$GLOBALS['TL_DCA']['tl_member']['fields']['state']['inputType'] = 'select';
+$GLOBALS['TL_DCA']['tl_member']['fields']['state']['eval']['includeBlankOption'] = true;
+$GLOBALS['TL_DCA']['tl_member']['fields']['state']['options'] = array(
 	"AL" => "Alabama",
 	"AK" => "Alaska",
 	"AZ" => "Arizona",
