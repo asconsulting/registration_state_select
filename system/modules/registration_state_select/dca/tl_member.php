@@ -17,6 +17,11 @@
 $GLOBALS['TL_DCA']['tl_member']['fields']['state']['inputType'] = 'select';
 $GLOBALS['TL_DCA']['tl_member']['fields']['state']['eval']['includeBlankOption'] = true;
 $GLOBALS['TL_DCA']['tl_member']['fields']['state']['options'] = array(
+	array('group' => 'us', 'label' => 'United States of America'),
+	array('value' => 'AL', 'label' => 'Alabama')
+);
+
+/*
 	"AL" => "Alabama",
 	"AK" => "Alaska",
 	"AZ" => "Arizona",
@@ -81,3 +86,4 @@ $GLOBALS['TL_DCA']['tl_member']['fields']['state']['options'] = array(
 	"SK" => "Saskatchewan",
 	"YT" => "Yukon"
 );
+*/
